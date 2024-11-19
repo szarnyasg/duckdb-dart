@@ -1,10 +1,10 @@
 # Variables
-VERSION = v1.1.3
-DUCKDB_REPO = https://github.com/duckdb/duckdb
+VERSION = snappy_definitions
+DUCKDB_REPO = https://github.com/lnkuiper/duckdb
 DUCKDB_DIR = duckdb
 BUILD_DIR = $(DUCKDB_DIR)/build
 LIB_DIR = src/main/jniLibs/
-EXTENSIONS = 'icu;parquet;json;fts;autocomplete'
+EXTENSIONS = ''
 
 ifndef ANDROID_NDK_HOME
 # https://developer.android.com/studio
